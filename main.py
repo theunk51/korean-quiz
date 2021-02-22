@@ -12,17 +12,18 @@ from text import wordList
 b = [key for key in wordList.keys()]
 bank = random.shuffle(b)
 
-def check():
+def check(): 
   #for dict(i).values()  wordList.values():
+  pass
 
 while bank != []:
-  fraction = len(i) - len(set(b) - set(i)) 
-
+  
   try:
     word = bank.pop()
     i = set(word, input(word, '\n>>> '))
   except:
-    print('Congratulations! You completed the list!)
+    fraction = len(i) - len(set(b) - set(i)) 
+    print('Congratulations! You completed the list!')
     print(f'Your scores is: {fraction} / {len(b)} {(fraction/len(b))*100}%')
     print('Your incorrect answers: {}')
 
