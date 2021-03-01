@@ -22,8 +22,6 @@ while len(word) > 0:
     print('\n\nDone!')
 
 
-
-
 def score(incorrect, correct):
   for key, val in wordList.items():
     for term, answer in userDict.items():

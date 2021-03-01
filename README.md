@@ -5,10 +5,11 @@ A git repo of the repl.it `k` which is a supposed flashcard system inspired by C
 - [ ] make this project a flask app or a website
 - [ ] intergrate a recommendation algorithm to suggest words that need review, testing, learning, or mastery
 - [ ] automate word updates from a google sheet
+- [ ] try to use a wrapper for the `score` and `results` functions
 
 ## To Do
 - [ ] reogranize code into OOP structure
-- [ ] simplified functions
+- [x] simplified functions
 - [ ] add a grahpical interface
 - [ ] add a `learn`, `review`, `test` and `master` function
 - [ ] add color to the score, correct, incorrect and terms
